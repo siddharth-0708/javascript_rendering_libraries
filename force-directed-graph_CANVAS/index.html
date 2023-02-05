@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<title>Force-Directed Graph, canvas</title>
+<link rel="stylesheet" type="text/css" href="./inspector.css">
+<body>
+<span id="fps">--</span> FPS</div>
+<script type="module">
+
+import define from "./index.js";
+import {Runtime, Library, Inspector} from "./runtime.js";
+
+var fps = document.getElementById("fps");
+var startTime = Date.now();
+var frame = 0;
+
+function tick() {
+  var time = Date.now();
+  frame++;
+  if (time - startTime > 1000) {
+      fps.innerHTML = (frame / ((time - startTime) / 1000)).toFixed(1);
+      startTime = time;
+      frame = 0;
+	}
+  window.requestAnimationFrame(tick);
+}
+tick();
+
+setTimeout(()=>{
+ const runtime = new Runtime();
+ const main = runtime.module(define, Inspector.into(document.body));
+},2000);
+</script>

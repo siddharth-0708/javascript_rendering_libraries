@@ -1,0 +1,157 @@
+:root {
+    --syntax_normal: #1b1e23;
+    --syntax_comment: #a9b0bc;
+    --syntax_number: #20a5ba;
+    --syntax_keyword: #c30771;
+    --syntax_atom: #10a778;
+    --syntax_string: #008ec4;
+    --syntax_error: #ffbedc;
+    --syntax_unknown_variable: #838383;
+    --syntax_known_variable: #005f87;
+    --syntax_matchbracket: #20bbfc;
+    --syntax_key: #6636b4;
+    --mono_fonts: 82%/1.5 Menlo, Consolas, monospace
+    display: none;
+}
+
+.observablehq--collapsed{
+    display: none;
+},
+.observablehq--expanded{
+    display: none;
+},
+.observablehq--function{
+    display: none;
+},
+.observablehq--gray{
+    display: none;
+},
+.observablehq--import{
+    display: none;
+},
+.observablehq--string:after{
+    display: none;
+},
+.observablehq--string:before {
+    color: var(--syntax_normal);
+    display: none;
+}
+
+.observablehq--collapsed {
+    display: none;
+}
+.observablehq--inspect a {
+    cursor: pointer;
+    display: none;
+}
+
+.observablehq--field {
+    text-indent: -1em;
+    margin-left: 1em;
+    display: none;
+}
+
+.observablehq--empty {
+    color: var(--syntax_comment);
+    display: none;
+}
+
+.observablehq--blue{
+    display: none;
+},
+.observablehq--keyword {
+    color: #3182bd;
+    display: none;
+}
+
+.observablehq--forbidden{
+    display: none;
+},
+.observablehq--pink {
+    color: #e377c2;
+    display: none;
+}
+
+.observablehq--orange {
+    color: #e6550d;
+    display: none;
+}
+
+.observablehq--boolean{
+    display: none;
+},
+.observablehq--null{
+    display: none;
+},
+.observablehq--undefined {
+    color: var(--syntax_atom);
+    display: none;
+}
+
+.observablehq--bigint{
+    display: none;
+},
+.observablehq--date{
+    display: none;
+},
+.observablehq--green{
+    display: none;
+},
+.observablehq--number{
+    display: none;
+},
+.observablehq--regexp{
+    display: none;
+},
+.observablehq--symbol {
+    color: var(--syntax_number);
+    display: none;
+}
+
+.observablehq--index{
+    display: none;
+},
+.observablehq--key {
+    color: var(--syntax_key);
+    display: none;
+}
+
+.observablehq--prototype-key {
+    color: #aaa;
+    display: none;
+}
+
+.observablehq--empty {
+    font-style: oblique;
+    display: none;
+}
+
+.observablehq--purple{
+    display: none;
+},
+.observablehq--string {
+    color: var(--syntax_string);
+    display: none;
+}
+
+.observablehq--error{
+    display: none;
+},
+.observablehq--red {
+    color: #e7040f;
+    display: none;
+}
+
+.observablehq--inspect {
+    font: var(--mono_fonts);
+    overflow-x: auto;
+    display: block;
+    white-space: pre;
+    display: none;
+}
+
+.observablehq--error .observablehq--inspect {
+    word-break: break-all;
+    white-space: pre-wrap;
+    display: none;
+}

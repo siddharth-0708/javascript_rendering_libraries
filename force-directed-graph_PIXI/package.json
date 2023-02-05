@@ -1,0 +1,14 @@
+{
+  "name": "@zakjan/force-directed-graph-pixi",
+  "main": "7e5de669ef809db2@1959.js",
+  "version": "1959.0.0",
+  "homepage": "https://observablehq.com/@zakjan/force-directed-graph-pixi",
+  "author": {
+    "name": "Jan Žák",
+    "url": "https://observablehq.com/@zakjan"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4 - 5"
+  }
+}
