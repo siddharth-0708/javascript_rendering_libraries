@@ -1,5 +1,6 @@
 // https://observablehq.com/@zakjan/inputs-form@69
 import define1 from "./e93997d5089d7165@2303.js";
+//haha
 
 function _1(md){return(
 md`# Inputs Form
